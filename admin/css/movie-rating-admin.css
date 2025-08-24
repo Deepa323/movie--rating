@@ -1,0 +1,151 @@
+/**
+ * Movie Rating Plugin - Admin Styles
+ */
+
+
+
+#mr_movie_details p {
+    margin: 15px 0;
+}
+
+#mr_movie_details label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#mr_movie_details input {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#mr_movie_details .button {
+    margin-left: 10px;
+    background: #0073aa;
+    border-color: #0073aa;
+    color: white;
+}
+
+#mr_movie_details .button:hover {
+    background: #005a87;
+    border-color: #005a87;
+}
+#mr_movie_details .form-table {
+    margin-top: 10px;
+}
+
+#mr_movie_details .form-table th {
+    width: 150px;
+    vertical-align: top;
+    padding-top: 10px;
+    font-weight: 600;
+}
+
+#mr_movie_details .form-table td {
+    padding: 8px 0;
+}
+
+#mr_movie_details input[type="date"],
+#mr_movie_details input[type="url"],
+#mr_movie_details input[type="text"] {
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+#mr_movie_details .button {
+    margin-left: 10px;
+    vertical-align: top;
+}
+
+
+#mr_movie_details img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+
+.wp-list-table .column-genre {
+    width: 20%;
+}
+
+.wp-list-table .column-release_date {
+    width: 15%;
+}
+
+.wp-list-table .column-ratings {
+    width: 15%;
+}
+
+.mr-admin-genre-tag {
+    display: inline-block;
+    background: #0073aa;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 11px;
+    margin: 0 2px 2px 0;
+    text-decoration: none;
+}
+
+.mr-admin-genre-tag:hover {
+    background: #005a87;
+    color: white;
+}
+
+.mr-admin-rating {
+    font-weight: bold;
+    color: #0073aa;
+}
+
+.mr-admin-no-rating {
+    color: #666;
+    font-style: italic;
+}
+
+#mr_upload_poster {
+    background: #000000 !important;
+    border-color: #000000 !important;
+    color: white !important;
+}
+
+#mr_upload_poster:hover {
+    background: #000000 !important;
+    border-color: #000000 !important;
+}
+
+.mr-quick-genres {
+    margin-top: 15px;
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 4px;
+}
+
+.mr-quick-genres h4 {
+    margin: 0 0 10px 0;
+    font-size: 13px;
+    color: #333;
+}
+
+.mr-quick-genre {
+    margin: 2px !important;
+    font-size: 11px !important;
+}
+
+.error-message {
+    color: #dc3232 !important;
+    font-size: 12px !important;
+    display: block !important;
+    margin-top: 5px !important;
+}
+
+#mr_movie_details input:invalid {
+    border-color: #dc3232 !important;
+}
+
+#mr_movie_details input:valid {
+    border-color: #46b450 !important;
+}
