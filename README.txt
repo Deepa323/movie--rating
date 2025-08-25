@@ -12,7 +12,7 @@ Release Date
 
 Poster URL
 
-IMDB Link
+Movie Link
 
 Frontend shortcode [movie_slider] or [movie_slider genre="action" limit="5"] to display movies in a slider .
 
@@ -46,7 +46,7 @@ Release Date
 
 Poster URL
 
-IMDB link
+Movie link
 
 Assign one or more Genres
 
